@@ -1,0 +1,71 @@
+body {
+    background-color: black;
+}
+
+em {
+    font-style: italic;
+}
+
+p{
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 2em;
+    color: white;
+    dropshadow: 1px 1px 1px 1px #000;
+    text-align: center;
+    padding-top: 75px;
+}
+
+.main {
+    background-image: url('http://i1367.photobucket.com/albums/r792/worldofentrepreneur/vDoU6tB_zpsizcfsggn.gif');
+    margin-top: 110px;
+    min-width: 1200px;
+    padding-left: 100px;
+    min-height: 500px;
+    position: relative;
+}
+
+.hadouken, .ryu-cool, .ryu-ready, .ryu-still, .ryu-throwing {
+    background-repeat: no-repeat;
+}
+
+.hadouken {
+    background-image: url('../images/hadouken.gif');
+    width: 156px;
+    height: 90px;
+    position: relative;
+    top: 167px;
+    left: -212px;
+    z-index: 10;
+    float: left;
+    display:none;
+}
+
+.ryu-container, .ryu {
+    float:left;
+}
+
+.ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
+    width: 659px;
+    height: 494px;
+}
+
+.ryu-ready, .ryu-throwing, .ryu-cool {
+    display: none;
+}
+
+.ryu-cool {
+    background-image: url('../images/ryu-cool.gif');
+}
+.ryu-ready {
+    background-image: url('../images/ryu-ready-position.gif');
+}
+
+.ryu-still {
+    background-image: url('../images/ryu-standing-still.png');
+}
+
+.ryu-throwing {
+    background-image: url('../images/ryu-throwing-hadouken.png');
+}
+
+
